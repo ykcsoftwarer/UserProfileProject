@@ -17,7 +17,11 @@ Yukarıdaki bilgilerle bir proje çalışmasının yapılması istenilmiştir.
 
 &&& user_profile adında bir app çalışma ekledim ve gerekli importları ve benden istenen gerekli modelleri oluşturdum.
 
-&&& UserProfile adında ve verilen özellikler kapsamında oluşturduğum modelleri terminalde python manage.py shell alanına girerek 5 adet kullanıcı ekledim.
+
+&&& UserProfile adında ve verilen özellikler kapsamında oluşturduğum modelleri terminalde (python manage.py shell) alanına girerek 5 adet kullanıcı ekledim.
+
+(from userprofile.models import Profile)
+
 
 &&&  Tüm UserProfile ait bilgilerini listelemek için:
 
